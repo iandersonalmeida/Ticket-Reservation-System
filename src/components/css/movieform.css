@@ -1,0 +1,55 @@
+.image{
+    margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: block;
+
+}
+
+.div1 h3{
+    color: black;
+	position: relative;
+	bottom: 470px;
+}
+
+.div1 input{
+	position: relative;
+	bottom: 470px;
+	font-size: 25px;
+	width: 20px;
+	height: 20px;
+		
+}
+
+.div1 span{
+	color: black;
+	position: relative;
+	bottom: 470px;
+	font-size: 25px;
+		
+}
+
+.div1 label{
+	position: relative;
+	bottom: 470px;
+	font-size: 25px;
+}
+
+.div1 select{
+	position: relative;
+	bottom: 470px;
+}
+
+.div1 .div2{
+	margin-bottom: 25px;
+}
+
+.div1 .movieBtn{
+	position: relative;
+	bottom: 470px;
+	width: 100px;
+	height: 45px;
+	font: caption;
+	margin-left: 125px;
+
+}
