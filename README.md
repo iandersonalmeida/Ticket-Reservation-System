@@ -7,7 +7,8 @@ Simple web application built with React JS, Spring Boot and MySQL.
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-
+## General info
+This project is a simple web application for practical purposes, using React for front-end development, \Spring Boot on the back-end, MySQL for data management and REST architecture patterns.
 
 
 ## Available Scripts
