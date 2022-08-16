@@ -14,7 +14,7 @@ This project is a simple web application for practical purposes, <br> using Reac
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
-* Ament library version: 999
+* MySQL 8.0.23
 
 
 
