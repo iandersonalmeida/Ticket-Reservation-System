@@ -16,6 +16,14 @@ Project is created with:
 * Spring Boot 2.6.7
 * MySQL 8.0.23
 
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 
 
 
