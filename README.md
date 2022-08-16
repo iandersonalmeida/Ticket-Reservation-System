@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Phoenix - Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple web application built with React JS, Spring Boot and MySQL.
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+
+
 
 ## Available Scripts
 
