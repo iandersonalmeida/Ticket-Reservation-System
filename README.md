@@ -12,8 +12,8 @@ This project is a simple web application for practical purposes, <br> using Reac
 
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
+* React 8.1.0
+* Spring Boot 2.6.7
 * MySQL 8.0.23
 
 
