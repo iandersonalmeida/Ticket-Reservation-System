@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phoenix-app-repo/static/css/main.416b09e5.css",
+    "main.js": "/phoenix-app-repo/static/js/main.0ce2042a.js",
+    "static/js/787.e9bf0149.chunk.js": "/phoenix-app-repo/static/js/787.e9bf0149.chunk.js",
+    "static/media/homepic.svg": "/phoenix-app-repo/static/media/homepic.02113022de92cc430f837783efafae18.svg",
+    "index.html": "/phoenix-app-repo/index.html",
+    "main.416b09e5.css.map": "/phoenix-app-repo/static/css/main.416b09e5.css.map",
+    "main.0ce2042a.js.map": "/phoenix-app-repo/static/js/main.0ce2042a.js.map",
+    "787.e9bf0149.chunk.js.map": "/phoenix-app-repo/static/js/787.e9bf0149.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.416b09e5.css",
+    "static/js/main.0ce2042a.js"
+  ]
+}
