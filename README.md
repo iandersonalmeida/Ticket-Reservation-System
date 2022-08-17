@@ -16,6 +16,13 @@ Project is created with:
 * Spring Boot 2.6.7
 * MySQL 8.0.23
 
+
+## Demo
+Here is the website demo:
+https://iandersonalmeida.github.io/phoenix-app-repo/
+
+
+
 ## Setup
 To run this project, install it locally using npm:
 
