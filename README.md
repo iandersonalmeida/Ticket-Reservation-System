@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+# Phoenix - Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple web application built with React JS, Spring Boot and MySQL.
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is a simple web application for practical purposes, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
+
+## Technologies
+Project is created with:
+* React 8.1.0
+* Spring Boot 2.6.7
+* MySQL 8.0.23
+
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+
+
+
+
+
+
 
 ## Available Scripts
 
