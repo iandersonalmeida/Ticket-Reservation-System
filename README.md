@@ -31,6 +31,10 @@ To run this project:
 ```
 $ clone (repository)
 ```
-- Em seu ambiente de desenvolvimento (e.g.,Eclipse)<br> abra a pasta referente ao desenvolvimento back-end
-
+- In your development environment (e.g., Eclipse), <br> open the folder referring to the back-end development (phoenix-react-backend).
+-  define your connection attributes in the application.properties file and run the Spring Boot project.
+- In your code editor (e.g., Visual Studio Code), open the frontend project (phoenix-app) and run:
+```
+$ npm start 
+```
 
