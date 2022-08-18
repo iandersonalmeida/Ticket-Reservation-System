@@ -25,4 +25,12 @@ https://iandersonalmeida.github.io/phoenix-app-repo/
 ## Project Status
 The project is currently being developed.
 
+## Usage
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+
 
