@@ -13,9 +13,9 @@ This project is a simple web application for practical purposes, <br> using Reac
 
 ## Technologies
 Project is created with:
-* React 8.1.0
-* Spring Boot 2.6.7
-* MySQL 8.0.23
+- React 8.1.0
+- Spring Boot 2.6.7
+- MySQL 8.0.23
 
 
 ## Demo
@@ -26,11 +26,11 @@ https://iandersonalmeida.github.io/phoenix-app-repo/
 The project is currently being developed.
 
 ## Usage
+To run this project:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ clone (repository)
 ```
+- Em seu ambiente de desenvolvimento (e.g.,Eclipse)<br> abra a pasta referente ao desenvolvimento back-end
 
 
