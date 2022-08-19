@@ -40,4 +40,4 @@ $ clone (repository)
 $ npm start 
 ```
 ## Acknowledgements
-- This project was based on[tutorial](https://spring.io/guides/tutorials/rest/)
+- This project was based on [tutorial](https://spring.io/guides/tutorials/rest/).
