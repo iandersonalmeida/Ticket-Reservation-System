@@ -9,6 +9,7 @@ Simple web application built with React JS, Spring Boot and MySQL.
 * [Project Status](#project-status)
 * [Usage](#usage)
 * [Acknowledgements](#acknowledgements)
+* [License](#license)
 
 ## General info
 This project is a simple web application for practical purposes, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
@@ -41,3 +42,6 @@ $ npm start
 ```
 ## Acknowledgements
 - This project was based on [tutorial](https://spring.io/guides/tutorials/rest/).
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
