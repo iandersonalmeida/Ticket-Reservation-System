@@ -44,4 +44,4 @@ $ npm start
 - This project was based on [tutorial](https://spring.io/guides/tutorials/rest/).
 
 ## License
-This project is licensed under the terms of the MIT license [[License: MIT](https://opensource.org/licenses/MIT).
+This project is licensed under the terms of the MIT [License: MIT](https://opensource.org/licenses/MIT).
