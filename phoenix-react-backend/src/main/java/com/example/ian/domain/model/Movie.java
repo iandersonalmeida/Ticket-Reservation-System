@@ -34,7 +34,8 @@ public class Movie {
 	
 		
 	public Movie() {}
-
+	
+	
 	public Movie(String movieName) {
 		super();
 		this.movieName = movieName;

@@ -7,7 +7,7 @@ class DateService{
         return  axios.get(DATE_URL);
     }
 
-    createDate(date){
+    createDate(...date){
         return axios.post(DATE_URL, date);
     }
 }

@@ -21,6 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.ian.domain.model.Movie;
 import com.example.ian.repository.MovieRepository;
 import com.example.ian.service.TicketService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @CrossOrigin(origins = "http://localhost:3000")
@@ -41,12 +43,12 @@ public class MovieController {
 		return movieRepository.findAll();
 	}	
 	
-	@PostMapping(value = "/movies",consumes = "application/json" )
+	@PostMapping(value = "/movies" )
 	@ResponseStatus(HttpStatus.CREATED)
-	public void selectMovies(@RequestBody List<Movie> movies){			
-					
+	public void selectMovies(@RequestBody List<Movie> movies){
+				
 		for(int i = 0; i < movies.size(); i++) {
-			log.info("selected movies: "+movies.get(i).getMovieName());			
-		}	
-	}
+			log.info("Movie: "+movies.get(i).getMovieName());
+		}		
+	}	
 }

@@ -8,8 +8,8 @@ class MovieService{
         return axios.get(MOVIE_URL);
     }   
     
-    createMovie(...movieId){
-            return axios.post(MOVIE_URL, movieId);
+    createMovie(...movie){
+            return axios.post(MOVIE_URL, movie);
     }
 }
 

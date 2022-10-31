@@ -1,8 +1,12 @@
+import axios from 'axios';
 class Movie{
+    
    
     getMovie(movie){ 
-        console.log("class movie",movie);       
-        return movie;
+        let arrayofMovies = [];
+        arrayofMovies.push(movie);
+        console.log("Array of movies: ",arrayofMovies);       
+        return axios.get(arrayofMovies);
     }
 }
 

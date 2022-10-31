@@ -3,6 +3,7 @@ import images from './images/images';
 import './css/movieform.css';
 import MovieService from '../service/MovieService';
 import DateService from '../service/DateService';
+//import Movie from '../others/Movie';
 
 
 
@@ -13,6 +14,7 @@ class MovieForm extends Component {
            movies: [],
            dates: [],
            selectedMovie: [],
+           selectedData: [],
         };       
         
         this.handleInputMovie = this.handleInputMovie.bind(this);
@@ -30,29 +32,20 @@ class MovieForm extends Component {
         {this.setState({dates: result2.data })});    
     }   
 
-    handleInputMovie(event){
-
-        let movies = [];       
-        movies = [event.target.value];  
-        
-        console.log("object", movies);  
-        //console.log("size of Array =",movies.length);   
-        //console.log("selected movie: "+movies);         
-        movies.map((movie) =>{
-            this.setState({selectedMovie : movie}); 
-            console.log("selected movie: ", this.state.selectedMovie);           
-            return movie;
-            }            
-        );  
-
-        
-        
-        //console.log("selected movie: "+movies);
+    handleInputMovie(movie){
+        console.log("movie :", movie);
+        this.setState({[this.state.selectedMovie.push(movie)]:movie},
+            () => console.log("selected Movie :", this.state.selectedMovie)
+            )                     
     }
     
     handleSelectDate = (event) => {
         let date = event.target.value;
         console.log(date);
+        this.setState({[this.state.selectedData.push(date)]: date},
+            () => console.log("selected data: ",this.state.selectedData)
+        )
+
     }
     
     handleSubmit = (event) =>{
@@ -63,12 +56,22 @@ class MovieForm extends Component {
 
     handleSave = () =>{ 
        let movies = [];            
-       movies =  this.state.selectedMovie;
-        console.log("Json? = ",movies);
-        MovieService.createMovie(movies).then((response) => {
-            console.log("sent selected movie = ", movies); //talvez converter isso em json?
+       movies =  JSON.stringify(this.state.selectedMovie);
+       console.log("Movie in Json = ",movies);
+        MovieService.createMovie(movies).then(() => {
+            console.log("sent selected movies = ", movies); //talvez converter isso em json?
            },  (error) => {
-            console.log("error: "+error); });            
+            console.log("sending error: "+error); });   
+        
+        let dates = [];
+        dates = JSON.stringify(this.state.selectedData);
+        console.log("Date in Json = ", dates);
+        DateService.createDate(dates).then(() => {
+            console.log("sent selected dates = ", dates);
+        }, (error) => {
+            console.log("sending error: "+error)});   
+            
+       window.location.href="ticketform";     
     }    
     
     render() {
@@ -85,7 +88,7 @@ class MovieForm extends Component {
                             {this.state.movies.map(
                             (movie, index) => 
                             <div key = {index} >
-                                <input type="checkbox" value={movie} onChange={this.handleInputMovie }/>
+                                <input type="checkbox"  onChange={this.handleInputMovie.bind(this,movie) }/>
                                  <span key = {movie.movieName}>{movie.movieName}</span> 
 
                                  <div>
@@ -105,8 +108,9 @@ class MovieForm extends Component {
                              </div>     
                                                    
                         )}   
-                         <button className='movieBtn' type='submit'
-                                         onClick={(event) => this.handleSave(event)} >Create your Ticket</button> 
+                        <button className='movieBtn' type='submit'
+                                         onClick={(event) => this.handleSave(event)} >
+                                          Create your Ticket </button> 
                                               
                         </div>                        
                        

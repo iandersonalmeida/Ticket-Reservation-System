@@ -1,0 +1,14 @@
+.homeimage{
+    margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: block;
+}
+.homediv .homeBtn{
+    position: relative;
+	bottom: 250px;
+	width: 100px;
+	height: 50px;
+	font: caption;
+	margin-left: 205px;
+}
