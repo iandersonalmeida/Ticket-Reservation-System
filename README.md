@@ -4,8 +4,8 @@ Simple web application built with React JS, Spring Boot and MySQL.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [Screenshots](#screenshots)
 * [Demo](#demo)
 * [Project Status](#project-status)
 * [Usage](#usage)
@@ -15,16 +15,15 @@ Simple web application built with React JS, Spring Boot and MySQL.
 ## General info
 This project is a simple web application for practical purposes, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
 
-## Screenshots
-![](phoenix-pic-1.PNG)
-![](phoenix-pic-2.PNG)
-
 ## Technologies
 Project is created with:
 - React 8.1.0
 - Spring Boot 2.6.7
 - MySQL 8.0.23
 
+## Screenshots
+![](phoenix-pic-1.PNG)
+![](phoenix-pic-2.PNG)
 
 ## Demo
 Here is the website demo:
