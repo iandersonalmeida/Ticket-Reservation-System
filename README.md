@@ -4,6 +4,7 @@ Simple web application built with React JS, Spring Boot and MySQL.
 
 ## Table of contents
 * [General info](#general-info)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Demo](#demo)
 * [Project Status](#project-status)
