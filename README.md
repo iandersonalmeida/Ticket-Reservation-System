@@ -5,95 +5,47 @@ Simple web application built with React JS, Spring Boot and MySQL.
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Screenshots](#screenshots)
+* [Demo](#demo)
+* [Project Status](#project-status)
+* [Usage](#usage)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
 
 ## General info
 This project is a simple web application for practical purposes, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
 
 ## Technologies
 Project is created with:
-* React 8.1.0
-* Spring Boot 2.6.7
-* MySQL 8.0.23
+- React 8.1.0
+- Spring Boot 2.6.7
+- MySQL 8.0.23
 
-## Setup
-To run this project, install it locally using npm:
+## Screenshots
+![](phoenix-pic-1.PNG)
+![](phoenix-pic-2.PNG)
+
+## Demo
+Here is the website demo:
+https://iandersonalmeida.github.io/phoenix-app-repo/
+
+## Project Status
+The project is currently being developed.
+
+## Usage
+To run this project:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ clone (repository)
 ```
+- In your development environment (e.g., Eclipse), <br> open the folder referring to the back-end development (phoenix-react-backend).
+-  define your connection attributes in the application.properties file and run the Spring Boot project.
+- In your code editor (e.g., Visual Studio Code), open the frontend project (phoenix-app) and run:
+```
+$ npm start 
+```
+## Acknowledgements
+- This project was based on [tutorial](https://spring.io/guides/tutorials/rest/).
 
-
-
-
-
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the terms of the MIT [License: MIT](https://opensource.org/licenses/MIT).
