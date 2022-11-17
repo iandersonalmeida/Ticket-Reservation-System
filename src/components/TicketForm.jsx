@@ -11,6 +11,12 @@ class TicketForm extends Component {
         return (
             <div>
                 <h1>Ticket Compoment</h1>  
+                     <form>
+                        <label> 
+                            Ticket Name:
+                            <input type="text" />
+                        </label>
+                     </form>
 
             </div>
         );
