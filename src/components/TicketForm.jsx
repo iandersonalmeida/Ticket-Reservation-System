@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import images from './images/images';
+import './css/ticketform.css';
+import TicketService from '../service/TicketService';
 
 class TicketForm extends Component {
     constructor(props){
@@ -8,6 +10,7 @@ class TicketForm extends Component {
 
         this.handleTextInput = this.handleTextInput.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleSave = this.handleSave.bind(this);
     }
     
     handleTextInput(event){
@@ -19,6 +22,22 @@ class TicketForm extends Component {
         alert('A name was submitted: '+ this.state.ticketName);
         event.preventDefault();
       }
+
+      handleError(){
+        alert('Submission error!')
+      }
+
+      handleSave = (event) =>{
+        let ticketName;
+        ticketName = this.state.ticketName;
+        ticketName =  JSON.stringify(this.state.ticketName);
+        console.log("TicketName = ",ticketName);
+        TicketService.createTicketName(ticketName).then(() => {
+            this.handleSubmit(event);
+        }, () => {
+            this.handleError();
+        })
+      }
    
     render() {
         return (
@@ -27,10 +46,11 @@ class TicketForm extends Component {
                 <img src={images.homepic} alt="phoenix logo" className="image"/> 
                      <form onSubmit={this.handleSubmit}>
                         <label> 
-                            Ticket Name:
-                            <input type="text" value={this.state.ticketName} onChange={this.handleTextInput} />
+                            Ticket Name:                          
                         </label>
-                        <button className='movieBtn' type='submit' value="Submit" >I am ready!</button>
+                        <input type="text" value={this.state.ticketName} onChange={this.handleTextInput} />
+                        <button className='ticketBtn' type='submit' value="Submit"  
+                         onClick={(event) => this.handleSave(event)}>I am ready!</button>
                      </form>
 
             </div>
