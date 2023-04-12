@@ -25,6 +25,7 @@ class MovieForm extends Component {
     
     
     componentDidMount(){
+        //console.log("I am componentDidMount. I am the second.")
         MovieService.getMovies().then((result1) =>
             {this.setState({movies: result1.data})});              
 
@@ -76,6 +77,7 @@ class MovieForm extends Component {
     
     render() {
 
+       // console.log("I am render(). I am the first.")
             
         return (
             <div>

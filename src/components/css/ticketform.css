@@ -6,19 +6,16 @@
 
 }
 
-.div1 input{
-	position: relative;
-	bottom: 467px;
-	font-size: 25px;
-	width: 200px;
-	height: 20px;
-    color: black;
-	
+.div2 input{
+	width: 160px;
+	bottom:470px;
+	position: relative;	
+}	
 	
 		
-}
 
-.div1 label{
+
+.div2 label{
 	position: relative;
 	bottom: 470px;
 	font-size: 25px;
@@ -32,5 +29,5 @@
 	width: 100px;
 	height: 45px;
 	font: caption;
-	margin-left: -207px;
+	margin-left: -100px;
 }

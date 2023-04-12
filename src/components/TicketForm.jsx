@@ -41,14 +41,14 @@ class TicketForm extends Component {
    
     render() {
         return (
-            <div className='div1'>
+            <div className='div2'>
                 <h1>Ticket Compoment</h1>  
                 <img src={images.homepic} alt="phoenix logo" className="image"/> 
                      <form onSubmit={this.handleSubmit}>
                         <label> 
                             Ticket Name:                          
                         </label>
-                        <input type="text" value={this.state.ticketName} onChange={this.handleTextInput} />
+                        <input  type="text" value={this.state.ticketName} onChange={this.handleTextInput} />
                         <button className='ticketBtn' type='submit' value="Submit"  
                          onClick={(event) => this.handleSave(event)}>I am ready!</button>
                      </form>
