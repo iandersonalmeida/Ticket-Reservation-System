@@ -25,7 +25,7 @@ class MovieForm extends Component {
     
     
     componentDidMount(){
-        //console.log("I am componentDidMount. I am the second.")
+        //return a Promise object
         MovieService.getMovies().then((result1) =>
             {this.setState({movies: result1.data})});              
 
