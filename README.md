@@ -13,7 +13,7 @@ Simple web application built with React JS, Spring Boot and MySQL.
 * [License](#license)
 
 ## General info
-This project is a simple web application for practical purposes, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
+This project is a simple web application for practical purposes that deals with the purchase and reservation of movie tickets in a cinema, <br> using React for front-end development, Spring Boot on the back-end, <br> MySQL for data management and REST architecture patterns.
 
 ## Technologies
 Project is created with:
