@@ -1,4 +1,4 @@
-# Phoenix - Web Application
+# Ticket Reservation System - Web Application
 
 Simple web application built with React JS, Spring Boot and MySQL.
 
